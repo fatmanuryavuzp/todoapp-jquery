@@ -1,0 +1,110 @@
+body, html {
+    background: #c1d4d1;
+    background: linear-gradient(to left, #351847 , #723d9e);
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+    
+      }
+      
+      
+      #container {
+        background: #ece8f0;
+        width: 600px;
+        margin: 200px auto;
+        box-shadow: 0 0 3px rgba(0,0,0, 1);
+        
+      }
+      
+      h1 {
+        background: #ffffff;
+        color: rgb(22, 20, 20);
+        margin: 0;
+        padding: 10px 20px;
+        font-size: 27px;
+        font-weight: normal;
+        text-align: center;
+      }
+      #btnAddTodo{
+        
+        float: right;
+        font-size: 1em;
+        margin-right: 3%;
+        margin-top: 1%;
+        cursor: pointer;
+        background-color:rgb(85, 19, 105);
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        color:white;
+        
+      
+    }
+    #btnAddTodo:focus {
+      background:rgb(255, 255, 255);
+      outline:none;
+      border: 2px solid rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+    }
+      ul{
+        list-style: none;
+        margin-top: 20px;
+      }
+      li{
+        color:rgb(34, 24, 24);
+         
+      }
+      li:nth-child(2n) {
+        background: #d8d5d5;
+      }
+      li i{
+        margin-right: 20px;
+       
+      }
+      input {
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        background: #ffffff;
+        width: 70%;
+        border: none;
+        box-sizing: border-box;
+        padding: 13px 13px 13px 20px;
+        color: rgb(0, 0, 0);
+        position: relative;
+       left: 7%;
+       margin-left: -360px;
+      }
+      input:focus {
+        background: #ffffff;
+        outline:none;
+        border: 2px solid #ffffff;
+        color: rgb(0, 0, 0);
+      }
+      li:hover {
+        cursor: pointer;
+      }
+      span {
+        background: #ffffff;
+        height: 40px;
+        margin-right: 50px;
+        text-align: center;
+        color: rgb(153, 10, 10);
+        width: 0px;
+        display: inline-block;
+        transition: 0.2s linear;
+        opacity: 1;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      #clearAll{
+        float: right;
+        font-size: 1em;
+        margin-right: 3%;
+        margin-top: 1%;
+        cursor: pointer;
+        background-color:rgb(255, 255, 255);
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        color:rgb(88, 6, 109);
+      }
+     
+      
