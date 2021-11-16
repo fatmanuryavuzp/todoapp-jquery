@@ -28,6 +28,7 @@
                 <li><span><i class="fa fa-trash"></i></span>Homeworks</li>
 
             </ul>
+            <button id="clearAll" class="btnClear" type="button">Clear</button>
             
            
 
@@ -62,6 +63,11 @@
 
                     });
                 });
+                $("#clearAll").click(function(){
+                    $("li").fadeOut(1000);
+
+                });
+                
                 
 
             });
